@@ -7,7 +7,7 @@ export default class RootComponent extends React.Component {
   constructor(props) {
     super();
     this.state = {
-      showConnections: true,
+      showConnections: false,
       validColors: COLORS_FOR_LEGEND.reduce((acc, {color}) => {
         acc[color] = true;
         return acc;
@@ -45,7 +45,7 @@ export default class RootComponent extends React.Component {
           </div>
           {
             <ColumnVisualizations
-              defaultSelection={files[1].filePrefix}
+              defaultSelection={files[0].filePrefix}
               showConnections={showConnections}
               calcIdx={calcIdx}
               validColors={validColors}
