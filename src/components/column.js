@@ -124,7 +124,6 @@ export default class Column extends React.Component {
   render() {
     const {showConnections} = this.props;
     const {
-      hoveredComment,
       barChartData,
       loading,
       selectedFile,
