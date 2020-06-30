@@ -1,12 +1,9 @@
-
 a {
   cursor: pointer;
 }
 
-html,
-body,
-#goethe-application {
-  background: #D6D6CE;
+html, body, #goethe-application {
+  /* background: #D6D6CE; */
   font-family: Verdana, Geneva, sans-serif;
   height: 100%;
   margin: 0;
@@ -28,29 +25,34 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   padding: 0;
-  margin:0;
+  margin: 0;
 }
+
 .grid {
   display: grid;
 }
+
 .flex {
   display: flex;
 }
+
 .flex-down {
   display: flex;
   flex-direction: column;
 }
+
 .full-height {
   height: auto;
 }
+
 .center {
   align-items: center;
   justify-content: center;
 }
+
 .margin-top {
   margin-top: 30px;
 }
-
 
 .bar-chart-x-axis .rv-xy-plot__axis__tick__text {
   font-size: 9px;
@@ -60,14 +62,15 @@ h1 {
 .waffle-book .rv-xy-plot__series--polygon {
   cursor: pointer;
 }
+
 .hover-box {
   pointer-events: none;
 }
 
-
 .static-waffle {
   position: absolute;
 }
+
 .dynamic-waffle {
   pointer-events: none;
 }
@@ -75,7 +78,6 @@ h1 {
 .rv-sunburst {
   font-size: 8px;
 }
-
 
 .small-font {
   font-size: 8px;
@@ -105,7 +107,6 @@ h1 {
 .descriptions p {
   font-size: 10px;
 }
-
 
 .tooltip {
   background: black;
@@ -144,7 +145,6 @@ h1 {
   margin-right: 3px;
   width: 15px;
 }
-
 
 .node-graph {
   z-index: 1;
@@ -214,7 +214,6 @@ h1 {
   padding: 0;
 }
 
-
 .text-control-button {
   background: white;
   border: 3px solid black;
@@ -257,6 +256,7 @@ h1 {
   padding: 0 5px;
   text-transform: uppercase;
 }
+
 .vis-mode.selected-vis-mode {
   font-weight: bold;
   text-decoration: underline;
